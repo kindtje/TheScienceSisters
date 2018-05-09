@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/HoloLens/Scenes/testClient.unity
+    guid: c9d3551c639ea8d45942ab7f445f8e5b
+  - enabled: 0
+    path: Assets/HoloLens/Scenes/testServer.unity
+    guid: f277523de8c521f469fe73c582416e2a
