@@ -557,11 +557,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: TheScienceSisters
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 809bd506630ad501
   metroApplicationDescription: The Science Sisters
   wsaImages: {}
   metroTileShortName: 
@@ -586,15 +586,15 @@ PlayerSettings:
       EnterpriseAuthentication: False
       HumanInterfaceDevice: False
       InputInjectionBrokered: False
-      InternetClient: False
-      InternetClientServer: False
+      InternetClient: True
+      InternetClientServer: True
       Location: True
       Microphone: True
       MusicLibrary: False
       Objects3D: False
       PhoneCall: False
       PicturesLibrary: False
-      PrivateNetworkClientServer: False
+      PrivateNetworkClientServer: True
       Proximity: False
       RemovableStorage: False
       SharedUserCertificates: False
