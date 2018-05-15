@@ -334,7 +334,10 @@
     <AppxPackagedFile Include="C:\Users\flori\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Save Space\Unity Projects\Assets\videocompositor\MixedRemoteViewCompositor\Source\Win32\MixedRemoteViewCompositor.winmd">
+    <AppxPackagedFile Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\Assets\MixedRemoteViewCompositor.dll stuff\MixedRemoteViewCompositor.dll">
+      <PackagePath>MixedRemoteViewCompositor.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\Assets\MixedRemoteViewCompositor.dll stuff\MixedRemoteViewCompositor.winmd">
       <PackagePath>MixedRemoteViewCompositor.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\UWP\Viewer\Properties\Default.rd.xml">

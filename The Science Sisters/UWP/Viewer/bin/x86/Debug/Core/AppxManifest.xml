@@ -36,6 +36,24 @@
     <Capability Name="internetClient" />
     <DeviceCapability Name="webcam" />
   </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>MixedRemoteViewCompositor.dll</Path>
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Network.Connector" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Network.BundleReceivedArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Network.Listener" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Network.Connection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Plugin.PluginManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Plugin.ModuleManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Media.PlaybackEngine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Media.NetworkMediaSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Media.NetworkMediaSink" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Media.MrvcSchemeHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MixedRemoteViewCompositor.Media.CaptureEngine" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="14.0" />

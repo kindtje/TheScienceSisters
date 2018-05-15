@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>324DDC78EA6A7794A96B5FE8DC14BA42A3EC34AC805D9FE00611CCBA3C24D054</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>827B1F6C3C776876DD858537FEE65712C7BD07C91E4F55C00B8A4A59D41B4620</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>412be276-a0bb-49f5-ad4c-94f03fb82b9e_1.0.0.0_x86__x6sh8wys3ddy6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>412be276-a0bb-49f5-ad4c-94f03fb82b9e_x6sh8wys3ddy6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>412be276-a0bb-49f5-ad4c-94f03fb82b9e</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\UWP\Viewer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-14T12:44:12.110</Modified>
+      <Modified>2018-05-15T09:30:39.107</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\UWP\Viewer\bin\x86\Debug\Viewer.exe">
       <PackagePath>entrypoint\Viewer.exe</PackagePath>
-      <Modified>2018-05-14T12:44:09.162</Modified>
+      <Modified>2018-05-15T09:30:36.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\flori\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,7 +448,11 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Save Space\Unity Projects\Assets\videocompositor\MixedRemoteViewCompositor\Source\Win32\MixedRemoteViewCompositor.winmd">
+    <AppxPackagedFile Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\Assets\MixedRemoteViewCompositor.dll stuff\MixedRemoteViewCompositor.dll">
+      <PackagePath>MixedRemoteViewCompositor.dll</PackagePath>
+      <Modified>2018-05-14T11:38:20.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\Assets\MixedRemoteViewCompositor.dll stuff\MixedRemoteViewCompositor.winmd">
       <PackagePath>MixedRemoteViewCompositor.winmd</PackagePath>
       <Modified>2018-05-14T11:37:53.134</Modified>
     </AppxPackagedFile>
@@ -492,7 +496,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\UWP\Viewer\bin\x86\Debug\Viewer.xr.xml">
       <PackagePath>Viewer.xr.xml</PackagePath>
-      <Modified>2018-05-14T12:40:54.726</Modified>
+      <Modified>2018-05-15T09:06:49.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -501,11 +505,11 @@
     <AppxPackagedFile Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\UWP\Viewer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-14T12:44:10.141</Modified>
+      <Modified>2018-05-15T09:30:36.889</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Save Space\GitRepos\MinorFutureTech\The Science Sisters\UWP\Viewer\bin\x86\Debug\Core\Viewer.exe">
       <PackagePath>Viewer.exe</PackagePath>
-      <Modified>2018-05-14T12:44:12.103</Modified>
+      <Modified>2018-05-15T09:30:39.104</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
